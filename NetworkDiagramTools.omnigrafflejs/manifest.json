@@ -1,0 +1,28 @@
+{
+    "author": "Andrey Golovanov",
+    "identifier": "com.networmix.NetworkDiagramTools",
+    "version": "0.1",
+    "description": "A collection of tools for creating network diagrams in OmniGraffle. Includes topology generators and layout utilities.",
+    "defaultLocale": "en",
+    "libraries": [
+        {
+            "identifier": "CommonLib"
+        },
+        {
+            "identifier": "ClosLib"
+        },
+        {
+            "identifier": "MatrixLib"
+        }
+    ],
+    "actions": [
+        {
+            "identifier": "generateClosTopology",
+            "image": "square.grid.2x2"
+        },
+        {
+            "identifier": "generateDeviceMatrix",
+            "image": "rectangle.grid.3x2"
+        }
+    ]
+}
