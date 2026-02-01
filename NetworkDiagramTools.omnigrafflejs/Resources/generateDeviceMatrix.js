@@ -70,7 +70,6 @@ var _ = function () {
         for (i = 0; i < lib.SHAPES.length; i++) shapeIndices.push(i);
         for (i = 0; i < lib.COLOR_PALETTE.length; i++) colorIndices.push(i);
 
-        var colorNames = lib.COLOR_PALETTE.map(function (c) { return c.name; });
         var textColorNames = lib.TEXT_COLORS.map(function (c) { return c.name; });
         var textColorIndices = [];
         for (i = 0; i < lib.TEXT_COLORS.length; i++) textColorIndices.push(i);
